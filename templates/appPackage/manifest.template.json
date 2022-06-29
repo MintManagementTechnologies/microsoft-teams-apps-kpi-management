@@ -82,10 +82,7 @@
       "identity",
       "messageTeamMembers"
    ],
-   "validDomains": [
-      "africaprudentialreminders.azurewebsites.net",
-      "pmsapi-uat.hh-converge.com"
-   ],
+   "validDomains": [],
    "webApplicationInfo": {
       "id": "{{state.fx-resource-aad-app-for-teams.clientId}}",
       "resource": "{{{state.fx-resource-aad-app-for-teams.applicationIdUris}}}"
