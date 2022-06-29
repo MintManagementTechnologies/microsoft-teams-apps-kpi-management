@@ -1,0 +1,62 @@
+{
+   "modal": {
+      "myGoals": {
+         "new": {
+            "title": "Add a New Goal",
+            "description": "<Text content={'Setup'} /> your goals for the company's calendar year in line with the performance management framework"
+         },
+         "approve": {
+            "title": "{{outcome}} Goals",
+            "description": "Setup your goals for the company's calendar year in line with the performance management framework"
+         }
+      }
+   },
+	"loading": "Loading...",
+   "noGoals": "No goals found",
+   "noAppraisals": "No appraisals found",
+   "formHeader-newGoalTitle": "Add a New Goal",
+   "formHeader-newGoalDescription": "Setup your goals for the company's calendar year in line with the performance management framework",
+   "formLabel-kra": "Key Result Area",
+   "formLabel-goalDescription": "Goal Description",
+   "formLabel-measureOfSuccess": "Measure of Success",
+   "formLabel-timing": "Timing",
+   "formLabel-weight": "Weight (%)",
+   "formLabel-priority": "Priority",
+   "formLabel-achievementCriteria": "Achievement Criteria",
+   "formPlaceholder-goalDescription": "Enter a short goal description",
+   "formPlaceholder-measureOfSuccess": "Enter SMART objective to measure task",
+   "formPlaceholder-achievementCriteria": "Enter an agreed parameter on how the goals will be rated",
+   "formHeader-editGoalTitle": "Edit Goal",
+   "formHeader-editGoalDescription": "Setup your goals for the company's calendar year in line with the performance management framework",
+   "formHeader-detailsGoalTitle": "Viewing Goal Details",
+   "formHeader-detailsGoalDescription": "Viewing goal details. You can not modify the goal",
+   "formCheckbox-requiresReview": "Requires Review",
+   "common-approved": "Approved",
+   "common-kras": "Key Result Areas",
+   "common-appraisalPeriod": "Appraisal Period",
+   "common-approver": "Approver",
+   "userRole-creator": "Submitted by",
+   "userRole-approver": "Line Manager",
+   "userRole-approver-final": "HR Manager",
+   "label-priority": "Priority",
+   "label-timing": "Timing",
+   "label-weight": "Weight",
+   "value-timing-daily": "Daily",
+   "value-timing-weekly": "Weekly",
+   "value-timing-monthly": "Monthly",
+   "value-status-created": "Created",
+   "value-status-pending": "Pending",
+   "button": {
+      "next": "Next",
+      "previous": "Previous",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "view": "View {{action}}"
+   },
+   "error" : {
+      "modal": {
+         "view": "Error trying to load the view in the modal.",
+         "action": "Error trying to load the action in the modal."
+      }
+   }
+}

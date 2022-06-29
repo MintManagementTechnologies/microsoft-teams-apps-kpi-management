@@ -1,0 +1,12 @@
+.mmt-userSwitchDropdown {
+   background-color: greenyellow;
+
+   .ui-dropdown__container {
+      background-color: transparent;
+      .ui-dropdown__selected-items {
+         .ui-button {
+            color: black;
+         }
+      }
+   }
+}

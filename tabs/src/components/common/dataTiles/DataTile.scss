@@ -1,0 +1,43 @@
+.mmt-tile {
+   background-color: #fff;
+   border-radius: 5px;
+   border: 2px solid #ececec;
+   padding-bottom: 10px;
+   min-width: 130px;
+
+   .ui-text:first-child {
+      font-size: 36px;
+      margin-bottom: 0px;
+   }
+
+   &.mmt-enabled {
+      cursor: pointer;
+
+      &:active {
+         background-color: rgba(255, 255, 255, 0.6);
+      }
+
+      &:hover {
+         background-color:#ffffff;
+      }
+
+      &.mmt-selected,
+      &:hover {
+         &:not(.mmt-selected) {
+            border-width: 1px;
+         }
+
+         &.mmt-green {
+            border-color: rgb(37, 170, 160);
+         }
+
+         &.mmt-pink {
+            border-color: rgb(170, 33, 89);
+         }
+
+         &.mmt-grey {
+            border-color: rgb(16, 32, 107);
+         }
+      }
+   }
+}

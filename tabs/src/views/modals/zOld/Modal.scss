@@ -1,0 +1,56 @@
+#root {
+   .mmt-taskModule {
+      height: 100vh;
+      .mmt-taskModule-body {
+         margin-bottom: 75px !important;
+         &.mmt-viewingOnly {
+            .mmt-inputGroup {
+               label {
+                  font-weight: 600;
+                  color:#686369;
+                  font-size:1.0em;
+               }
+               textarea,
+               input,
+               .ui-dropdown__container,
+               .ui-dropdown__selected-items * {
+                  font-weight: normal;
+                  //background-color: transparent;
+                  color:#A6A6A6;
+                  font-size:16px;
+
+                  .ui-dropdown__toggle-indicator {
+                     display: none;
+                  }
+               }
+            }
+         }
+
+         .mmt-inputGroup {
+            //font-size: 0.85em;
+            font-weight: 600;
+
+            .mmt-textarea {
+               ::placeholder {
+                  font-size:1.2em;
+               }
+            }
+         }
+      }
+
+      .mmt-footer-container {
+         background-color: transparent !important;
+      }
+   }
+}
+// .mmt-taskModule-footer {
+// 	// height: 60px;
+// 	padding-top: 20px !important;
+// 	padding-bottom: 20px !important;
+// 	position: fixed;
+// 	bottom: 0;
+// 	width: 100%;
+// 	left: 0;
+// 	// padding-left: 20px;
+// 	padding-right: 20px !important;
+// }

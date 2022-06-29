@@ -1,0 +1,58 @@
+.ui-pill {
+   .ui-pillcontent {
+      width: 100%;
+      text-align: center;
+
+      .ui-text {
+         font-size: 11px !important;
+         font-weight: 600;
+         color: #ffffff !important;
+      }
+   }
+
+   &.mmt-statusPill {
+      min-width: 110px !important;
+      max-height: 24px !important;
+      color: white !important;
+
+      // &.ui-pill,
+      &.mmt-draft,
+      &.mmt-draft:hover {
+         color: rgb(36, 36, 36) !important;
+         background-color: #cfcfcf;
+      }
+
+      &.mmt-pending,
+      &.mmt-pending:hover,
+      &.mmt-inProgress,
+      &.mmt-inProgress:hover {
+         background-color: #ff8d23;
+         color: white !important;
+      }
+
+      &.mmt-approved,
+      &.mmt-approved:hover {
+         background-color: #bdd600;
+         color: white !important;
+      }
+
+      &.mmt-rejected,
+      &.mmt-rejected:hover {
+         background-color: #c70000;
+         color: white !important;
+      }
+   }
+
+   &.mmt-userPill {
+      min-height: 32px;
+      padding-right: 15px;
+      .ui-pill__image {
+         max-height: initial;
+      }
+   }
+   .ui-pill__image {
+      height: auto;
+      width: auto;
+      max-height: inherit;
+   }
+}

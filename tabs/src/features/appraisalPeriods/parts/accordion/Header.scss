@@ -1,0 +1,72 @@
+.mmt-header-team, .mmt-header-me {
+   padding: 10px;
+   font-size: 12px;
+   padding-left: 42px;
+
+   &.mmt-header-appraisals {
+      padding-left: 15px;
+      .mmt-col-user {
+         // max-width: 306px;
+      }
+   }
+
+   &.mmt-header-goals {
+      .mmt-header-kra {
+         padding-left:7px;
+      }
+   }
+
+   // .mmt-header-user {
+   // }
+
+   .mmt-header-status {
+      padding-left:4px;
+   }
+}
+
+.mmt-col-kra {
+   max-width: 500px;
+}
+
+.mmt-col-user {
+   width: 100%;
+   max-width: 310px;
+   // background-color: green;
+}
+
+.mmt-col-status {
+   width: 100%;
+   max-width: 210px;
+   // background-color: yellow;
+}
+
+.mmt-col-priority {
+   max-width: 150px;
+   // background-color: purple;
+}
+
+.mmt-col-weight {
+   width: 100%;
+   max-width: 150px;
+   // background-color: pink;
+}
+
+.mmt-col-manager {
+   // background-color: grey;
+   width: 100%;
+   max-width: 310px;
+}
+
+.mmt-col-description {
+   // background-color: yellowgreen;
+   max-width: 495px;
+}
+
+.mmt-col-review {
+   max-width: 200px;
+   // background-color: yellowgreen;
+}
+
+.mmt-col-created {
+   max-width: 200px;
+}

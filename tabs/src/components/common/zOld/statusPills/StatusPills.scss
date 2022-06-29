@@ -1,0 +1,79 @@
+.ui-pill {
+   .ui-pillcontent {
+      width: 100%;
+      text-align: center;
+
+      .ui-text {
+         font-size: 11px !important;
+         font-weight: 600;
+         color:#ffffff !important;
+      }
+   }
+
+   &.mmt-lvlPill,
+   &.mmt-statusPill {
+      min-width: 110px !important;
+      max-height: 24px !important;
+   }
+
+   &.mmt-lvlPill,
+   &.mmt-lvlPill:hover {
+      color: #a6a6a6;
+      background-color: transparent;
+      margin-top: 0px;
+      margin-bottom: 0px;
+   }
+
+   &.mmt-statusPill {
+      color: white !important;
+      &.ui-pill,
+      &.pendingLvl,
+      &.pendingLvl:hover,
+      &.skipped,
+      &.skipped:hover,
+      &.neverStarted,
+      &.neverStarted:hover,
+      &.created,
+      &.created:hover {
+         color: rgb(36, 36, 36) !important;
+         background-color: #cfcfcf;
+      }
+      &.approved,
+      &.approved:hover,
+      &.signed,
+      &.signed:hover {
+         background-color: #bdd600;
+         color: white !important;
+      }
+      &.pending,
+      &.pending:hover,
+      &.inProgress,
+      &.inProgress:hover {
+         background-color: #ff8d23;
+         color: white !important;
+      }
+      &.rejected,
+      &.rejected:hover,
+      &.withdrawn,
+      &.withdrawn:hover {
+         background-color: #c70000;
+         color: white !important;
+      }
+      &.userRole,
+      &.userRole:hover {
+         background-color: #25aaa0;
+         color: white !important;
+      }
+   }
+
+   &.mmt-userPill {
+      min-height: 32px;
+      padding-right: 15px;
+      .ui-pill__image {
+         max-height: initial;
+      }
+   }
+   .ui-pill__image {
+      max-height: inherit;
+   }
+}

@@ -1,0 +1,20 @@
+.mmt-goalsApprovalStatusBar {
+   border: 1px solid;
+   padding: 10px;
+   margin-bottom: 10px;
+   min-height: 62px;
+}
+
+.mmt-default {
+   .mmt-goalsApprovalStatusBar {
+      background-color: #f5f5f5;
+      border-color: #e0e0e0;
+   }
+}
+
+.mmt-dark {
+   .mmt-goalsApprovalStatusBar {
+      background-color: rgba(10, 10, 10, 1) !important;
+      border-color: rgba(36, 36, 36, 1);
+   }
+}

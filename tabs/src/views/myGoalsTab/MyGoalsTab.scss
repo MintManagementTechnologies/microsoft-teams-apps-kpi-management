@@ -1,0 +1,36 @@
+.mmt-myGoalsTab {
+   // margin-left: -12px;
+   // margin-right: -12px;
+   .ui-accordion__title__content-wrapper {
+      padding-left: 1.5em !important;
+   }
+   .ui-accordion__content {
+      margin-inline-start: 2.1rem;
+   }
+}
+
+.mmt-container-goalBatchReview {
+   padding: 1.75em;
+   padding-top: 20px;
+   height: 100%;
+
+   .mmt-row-goalBatchReview {
+      height: 100%;
+      .mmt-col-browseUserGoalBatch {
+         max-height: calc(100vh - 75px);
+         padding-bottom: 120px;
+      }
+   }
+}
+
+.mmt-default {
+   .mmt-col-browseUserGoalBatch {
+      background-color: #ffffff;
+   }
+}
+
+.mmt-dark {
+   .mmt-col-browseUserGoalBatch {
+      background-color: rgb(37, 36, 35);
+   }
+}

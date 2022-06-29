@@ -1,0 +1,112 @@
+.mmt-inputForm {
+   .mmt-inputGroup-row {
+      .mmt-inputGroup {
+         label {
+            font-weight: 600;
+         }
+
+         .ui-dropdown {
+            .ui-button {
+               .ui-button__content {
+                  font-weight: normal;
+               }
+            }
+         }
+      }
+   }
+
+   &.mmt-viewingOnly {
+      .mmt-inputGroup {
+         label {
+            margin-bottom: -5px;
+         }
+         textarea,
+         input,
+         .ui-dropdown__container,
+         .ui-dropdown__selected-items * {
+            font-weight: normal;
+            background-color: transparent;
+            padding-left: 0px;
+
+            .ui-dropdown__toggle-indicator {
+               display: none;
+            }
+         }
+      }
+   }
+}
+
+.mmt-textArea {
+   .ui-textarea {
+      height: 100px;
+   }
+   &.mmt-textArea-200 {
+      .ui-textarea {
+         height: 200px;
+      }
+   }
+   &.mmt-textArea-150 {
+      .ui-textarea {
+         height: 150px;
+      }
+   }
+   &.mmt-textArea-100 {
+      .ui-textarea {
+         height: 100px;
+      }
+   }
+   &.mmt-textArea-50 {
+      .ui-textarea {
+         height: 55;
+      }
+   }
+}
+
+.mmt-default {
+   .mmt-inputForm {
+      .mmt-inputGroup {
+         label {
+            color: #686369;
+         }
+         ::placeholder {
+            font-size: 14px;
+            color: #b6b5b5;
+         }
+      }
+      &.mmt-viewingOnly {
+         .mmt-inputGroup {
+            textarea,
+            input,
+            .ui-dropdown__container,
+            .ui-dropdown__selected-items * {
+               // color: rgb(72, 70, 68);
+               color: rgb(36, 36, 36);
+            }
+         }
+      }
+   }
+}
+
+.mmt-dark {
+   .mmt-inputForm {
+      .mmt-inputGroup {
+         label {
+            color: #fff;
+         }
+         ::placeholder {
+            font-size: 14px;
+            color: #b6b5b5;
+         }
+      }
+      &.mmt-viewingOnly {
+         .mmt-inputGroup {
+            textarea,
+            input,
+            .ui-dropdown__container,
+            .ui-dropdown__selected-items * {
+               color: rgb(200, 198, 196);
+            }
+         }
+      }
+   }
+}

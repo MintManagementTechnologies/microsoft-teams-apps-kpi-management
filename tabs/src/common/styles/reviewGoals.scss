@@ -1,0 +1,75 @@
+.mmt-reviewGoals-container {
+   overflow: unset !important;
+   overflow-x: hidden;
+   .mmt-reviewGoals-item-container {
+      border-bottom: 1px solid;
+      margin-top: 10px;
+
+      .mmt-label {
+         font-weight: 600;
+         font-size: 1em;
+      }
+
+      .mmt-goalApproval-KRATitle {
+         font-size: 1.4em;
+         font-weight: 600;
+      }
+
+      .mmt-goalApproval-goalText {
+         font-size: 1.1em;
+         font-weight: 500;
+      }
+
+      .mmt-goalApproval-goalEmphasis {
+         font-size: 1.7em;
+         font-weight: 600;
+      }
+      
+      .mmt-smallValue-container {
+         min-width: 200px;
+      }
+
+      .mmt-weight-timing-container {
+         padding-top: 15px;
+         padding-bottom: 15px;
+      }
+
+      .mmt-goalReview-actions {
+         padding-bottom: 10px;
+      }
+   }
+}
+
+.mmt-default {
+   .mmt-reviewGoals-container {
+      .mmt-reviewGoals-item-container {
+         border-bottom-color: #e3e3e3;
+         .mmt-label {
+            color: #686369;
+         }
+         .mmt-goalApproval-goalText {
+            color: #9b9b9b;
+         }
+         .mmt-goalApproval-goalEmphasis {
+            color: #25aaa0;
+         }
+      }
+   }
+}
+
+.mmt-dark {
+   .mmt-reviewGoals-container {
+      .mmt-reviewGoals-item-container {
+         border-bottom-color: #e3e3e3;
+         .mmt-label {
+            color: #ffffff;
+         }
+         .mmt-goalApproval-goalText {
+            // color: #9b9b9b;
+         }
+         .mmt-goalApproval-goalEmphasis {
+            color: #25aaa0;
+         }
+      }
+   }
+}

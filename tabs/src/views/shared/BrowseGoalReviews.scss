@@ -1,0 +1,31 @@
+@import "../../common/styles/reviewGoals.scss";
+
+.mmt-browseGoalReviews {
+   padding-top: 20px;
+   font-weight: 600;
+   overflow-y: auto;
+   overflow-x: hidden;
+}
+
+.mmt-default {
+   .mmt-browseGoalReviews {
+      color: #616161;
+   }
+}
+
+.mmt-dark {
+   .mmt-browseGoalReviews {
+      color: #ffffff;
+   }
+}
+
+.mmt-row-goalReview-inputs {
+   //background-color:#f5f5f5;
+   padding-top: 10px;
+   .mmt-goalApproval-comments > .ui-text {
+      font-weight: 600;
+      color: #686369;
+      font-size: 1em;
+      padding-left: 3px;
+   }
+}

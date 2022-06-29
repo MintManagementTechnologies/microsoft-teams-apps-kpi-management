@@ -1,0 +1,293 @@
+{
+   "entity": {
+      "kra_one": "Key Result Area",
+      "kra_other": "Key Result Areas",
+      "abbrKRA_one": "KRA",
+      "abbrKRA_other": "KRAs",
+      "competency_one": "Competency",
+      "competency_other": "Competencies",
+      "goal_one": "Goal",
+      "goal_other": "Goals",
+      "goalBatch_one": "Appraisal Period Goal",
+      "goalBatch_other": "Appraisal Period Goals",
+      "appraisal_one": "Appraisal",
+      "appraisal_other": "Appraisals",
+      "appraisalPeriod_one": "Appraisal Period",
+      "appraisalPeriod_other": "Appraisal Periods",
+      "employee_one": "Employee",
+      "employee_other": "Employees",
+      "workgrade_one": "Workgrade",
+      "workgrade_other": "Workgrades"
+   },
+   "tab": {
+      "mygoals": {
+         "header": {
+            "me": "My Goals",
+            "team": "Team Goals",
+            "meeting": "Goals"
+         }
+      },
+      "myappraisals": {
+         "header": {
+            "me": "My Appraisals",
+            "team": "Team Appraisals",
+            "meeting": "Appraisal"
+         }
+      }
+   },
+   "modal": {
+      "myGoals": {
+         "goalBatch": {
+            "headerAction": "{{action}} goals",
+            "title": "You're goals are set and ready for approval!",
+            "description": "By clicking submit you agree with all your goals, it's been discussed with your line manager and you are fully aware of your expectations."
+         },
+         "goal": {
+            "headerAction": "{{action}} a Goal",
+            "title": "Personal Goal",
+            "description": "Setup your goals for the company's calendar year in line with the performance management framework"
+         },
+         "new": {
+            "name": "Create a Goal",
+            "title": "Add a New Goal",
+            "description": "Setup your goals for the company's calendar year in line with the performance management framework"
+         },
+         "view": {
+            "name": "Goal Details",
+            "title": "TODO: viewTitle",
+            "description": "TODO: viewDescription"
+         },
+         "edit": {
+            "name": "Edit Goal",
+            "title": "TODO: editTitle",
+            "description": "TODO: editDescription"
+         },
+         "delete": {
+            "name": "Delete Goal",
+            "title": "TODO: deleteTitle",
+            "description": "TODO: deleteDescription"
+         },
+         "approve": {
+            "name": "Approval Confirmation",
+            "title": "{{outcome}} Goals",
+            "description": {
+               "approve": "All goals have been marked as approved. The goal set will be approved. Please add your comments",
+               "reject": " of the Goals have been marked for review. The Goal set approval will be declined. Please add your comments"
+            }
+         }
+      },
+      "myAppraisals": {
+         "approve": {
+            "headerAction": "{{action}} Confirmation",
+            "title": "Approve / Reject Appraisal"
+         },
+         "submit": {
+            "headerAction": "{{action}} Confirmation",
+            "title": "Submit Appraisal",
+            "description": "By clicking submit you agree with all your self review scores and that it's been discussed with your line manager."
+         }
+      },
+      "hrAdmin": {
+         "period": {
+            "headerAction": "{{action}} an Appraisal Period",
+            "title": "TODO newPeriod",
+            "description": "TODO newPeriod"
+         },
+         "kra": {
+            "headerAction": "{{action}} a Key Result Area",
+            "title": "TODO newKeyResultArea",
+            "description": "TODO newKeyResultArea"
+         },
+         "competency": {
+            "headerAction": "{{action}} a Competency",
+            "title": "TODO Competency",
+            "description": "TODO Competency"
+         }
+      }
+   },
+   "form": {
+      "goalReview": {
+         "label": {
+            "approved": "Approved",
+            "requiresReview": "Requires Review"
+         },
+         "description": "Please review and approve the following goals set for the period."
+      },
+      "appraisalReview": {
+         "label": {
+            "self": "Self Review",
+            "reviewerByIndex": "Line Manager {{index}} Review",
+            "hrReviewer": "HR Manager Review",
+            "placeholder": "Add your rating here..."
+         },
+         "description": "Please review and approve the following ratings for the period.",
+         "comments": {
+            "label": "Approval / Rejection Comments",
+            "placeholder": "Please enter any approval / rejection comments"
+         }
+      },
+      "kra": {
+         "label": "Key Result Area",
+         "placeholder": "Select a key result area..."
+      },
+      "workgrade": {
+         "label": "Workgrade",
+         "placeholder": "Select a workgrade..."
+      },
+      "competency": {
+         "label": "Competency",
+         "placeholder": "Enter the title for the competency"
+      },
+      "status": {
+         "label": "Status",
+         "value": {
+            "active": "Active",
+            "inactive": "Inactive"
+         }
+      },
+      "description": {
+         "label": "Description",
+         "placeholder": "Enter a description"
+      },
+      "measureOfSuccess": {
+         "label": "Measure of Success",
+         "placeholder": "Enter SMART objective to measure task"
+      },
+      "achievementCriteria": {
+         "label": "Achievement Criteria",
+         "placeholder": "Enter an agreed parameter on how the goals will be rated"
+      },
+      "timing": {
+         "label": "Timing",
+         "placeholder": "Select timing..."
+      },
+      "weight": {
+         "label": "Weight (%)",
+         "placeholder": "10"
+      },
+      "priority": {
+         "label": "Priority"
+      },
+      "period": {
+         "start": "From",
+         "end": "To",
+         "year": "Year",
+         "reminderFrequency": "Automatic reminder frequency",
+         "placeholder": "Select Period"
+      },
+      "comments": {
+         "label": "Comments",
+         "placeholder": "Please enter any {{outcome}} comments"
+      },
+      "searchUser": {
+         "label": "Search User",
+         "placeholder": "Start typing to search..."
+      },
+      "firstName": {
+         "label": "Name",
+         "placeholder": "Enter the user's first name'"
+      },
+      "lastName": {
+         "label": "Surname",
+         "placeholder": "Enter the user's surname'"
+      },
+      "department": {
+         "label": "Department",
+         "placeholder": "Enter the user's department'"
+      },
+      "jobTitle": {
+         "label": "Job Title",
+         "placeholder": "Enter the user's job title'"
+      },
+      "startConversation": {
+         "label": "Start a conversation"
+      },
+      "initiateMeeting": {
+         "label": "Initiate a Meeting"
+      }
+   },
+   "button": {
+      "goal": {
+         "myGoals": "My Goals",
+         "teamGoals": "Team Goals",
+         "view": "View Goal",
+         "edit": "Edit Goal",
+         "delete": "Delete Goal",
+         "batch": "View All Details",
+         "submitBatch": "Submit for Approval",
+         "overview": "View All Details",
+         "error": "ERROR: No Action Found"
+      },
+      "appraisal": {
+         "myAppraisals": "My Appraisals",
+         "teamAppraisals": "Team Appraisals",
+         "overview": "View All Details"
+      },
+      "hr": {
+         "allGoals": "Goals",
+         "allAppraisals": "Appraisals",
+         "settings": "KRA Management"
+      }
+   },
+   "error": {
+      "goals": {
+      },
+      "modal": {
+         "view": "Error trying to load the view in the modal.",
+         "action": "Error trying to load the action in the modal.",
+         "name": "KPI Goals"
+      },
+      "user": {
+      },
+      "hradmin": {
+         "view": "Error trying to load the browse view."
+      },
+      "permission": {
+         "access": "Access Denied"
+      }
+   },
+   "fields": {
+      "active": {
+         "label": "Status",
+         "value": {
+            "active": "Active",
+            "inactive": "Inactive"
+         }
+      }
+   },
+   "loading": "Loading...",
+   "noGoals": "No goals found",
+   "noAppraisals": "No appraisals found",
+   "formHeader-newGoalTitle": "Add a New Goal",
+   "formHeader-newGoalDescription": "Setup your goals for the company's calendar year in line with the performance management framework",
+   "formLabel-kra": "Key Result Area",
+   "formLabel-goalDescription": "Goal Description",
+   "formLabel-measureOfSuccess": "Measure of Success",
+   "formLabel-timing": "Timing",
+   "formLabel-weight": "Weight (%)",
+   "formLabel-priority": "Priority",
+   "formLabel-achievementCriteria": "Achievement Criteria",
+   "formPlaceholder-goalDescription": "Enter a short goal description",
+   "formPlaceholder-measureOfSuccess": "Enter SMART objective to measure task",
+   "formPlaceholder-achievementCriteria": "Enter an agreed parameter on how the goals will be rated",
+   "formHeader-editGoalTitle": "Edit Goal",
+   "formHeader-editGoalDescription": "Setup your goals for the company's calendar year in line with the performance management framework",
+   "formHeader-detailsGoalTitle": "Viewing Goal Details",
+   "formHeader-detailsGoalDescription": "Viewing goal details. You can not modify the goal",
+   "formCheckbox-requiresReview": "Requires Review",
+   "common-approved": "Approved",
+   "common-kras": "Key Result Areas",
+   "common-appraisalPeriod": "Appraisal Period",
+   "common-approver": "Approver",
+   "userRole-creator": "Submitted by",
+   "userRole-approver": "Line Manager",
+   "userRole-approver-final": "HR Manager",
+   "label-priority": "Priority",
+   "label-timing": "Timing",
+   "label-weight": "Weight",
+   "value-timing-daily": "Daily",
+   "value-timing-weekly": "Weekly",
+   "value-timing-monthly": "Monthly",
+   "value-status-created": "Created",
+   "value-status-pending": "Pending"
+}

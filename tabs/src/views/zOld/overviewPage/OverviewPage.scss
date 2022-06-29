@@ -1,0 +1,67 @@
+.mmt-goalsOverview-container {
+   .mmt-container-row {
+      .mmt-col-content {
+         padding-top: 20px;
+         font-weight: 600;
+         color: #616161;
+         .mmt-goalsApprovalStatusBar {
+            background-color: #f5f5f5;
+            border: 1px solid #e0e0e0;
+            padding: 10px;
+            margin-bottom: 10px;
+         }
+      }
+   }
+}
+
+.mmt-goalBatchBg {
+   background-color: #ffffff;
+   max-height: 60vh;
+
+   .mmt-col-goalBatchOverview-content {
+      overflow-y: auto;
+   }
+}
+
+.mmt-row-goalReview-inputs {
+   //background-color:#f5f5f5;
+   padding-top: 10px;
+   .mmt-goalApproval-comments > .ui-text {
+      font-weight: 600;
+      color: #686369;
+      font-size: 1em;
+      padding-left: 3px;
+   }
+}
+
+.mmt-goalApproval-KRATitle {
+   font-size: 1.4em;
+   font-weight: 600;
+}
+
+.mmt-label {
+   font-weight: 600;
+   color: #686369;
+   font-size: 1em;
+}
+
+.mmt-goalApproval-goalText {
+   color: #9b9b9b;
+   font-size: 1.1em;
+   font-weight: 500;
+}
+
+.mmt-goalApproval-goalEmphasis {
+   color: #25aaa0;
+   font-size: 1.7em;
+   font-weight: 600;
+}
+
+.mmt-space {
+   min-width: 200px;
+}
+
+.mmt-checking {
+   padding-top: 15px;
+   padding-bottom: 15px;
+}

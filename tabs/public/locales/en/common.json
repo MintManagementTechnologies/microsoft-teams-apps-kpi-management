@@ -1,0 +1,71 @@
+{
+   "entity": {
+      "user_one": "User",
+      "user_other": "Users",
+      "setting_one": "Setting",
+      "setting_other": "Settings"
+   },
+   "userRole": {
+      "createdBy": "Submitted by",
+      "manager": "Line Manager",
+      "hr": "HR Manager",
+      "self": "Self"
+   },
+   "status": {
+      "created": "Created",
+      "submitted": "Submitted",
+      "pending": "Pending",
+      "pendingSubmission": "Pending Submission",
+      "pendingApproval": "Pending Approval",
+      "inProgress": "In Progress",
+      "ready": "Set",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "active": "Active",
+      "inactive": "Inactive"
+   },
+   "loading": "Loading {{entity}}...",
+   "button": {
+      "next": "Next",
+      "previous": "Previous",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "newEntity": "New {{entity}}",
+      "create": "Create",
+      "save": "Save",
+      "details": "Submit",
+      "edit": "Edit",
+      "update": "Update",
+      "delete": "Delete",
+      "viewProperty": "View {{property}}",
+      "view": "View",
+      "dismiss": "Dismiss",
+      "approve": "Approve",
+      "reject": "Reject",
+      "no": "No",
+      "yes": "Yes",
+      "close": "Close",
+      "groupchat": "Start a conversation",
+      "meeting": "Start a meeting"
+   },
+   "msg": {
+      "deleteConfirmationHeader": "Delete Confirmation",
+      "deleteConfirmation": "Are you sure?",
+      "hrTabConfig": "Click save to continue."
+   },
+   "error": {
+      "entityAction": "{{action}} {{entity}} failed!",
+      "modal": {
+         "view": "Error trying to load the view in the modal.",
+         "action": "Error trying to load the action in the modal."
+      },
+      "noItemsOfEntity": "No {{entity}} found.",
+      "noTeamGoalSubmissions": "No pending team goal submissions found.",
+      "noTeamAppraisalSubmissions": "No pending team appraisals found.",
+      "accessDenied": "You do not have permission to view this page."
+   },
+   "general" : {
+      "details": "Details",
+      "placeholder": "Select..."
+   }
+}

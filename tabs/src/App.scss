@@ -1,0 +1,24 @@
+@import "~bootstrap/dist/css/bootstrap-grid.min.css";
+@import "./components/common/common.scss";
+@import "./components/common/buttons/buttons.scss";
+@import "./common/styles/fluentColorOverrides.scss";
+
+.mmt-container-row {
+   height: 100%;
+   overflow-y: auto;
+   // margin-bottom: 200px;
+
+   .mmt-col-content {
+      overflow-y: overlay;
+   }
+}
+
+.mmt-hidden {
+   display: none !important;
+}
+
+#root {
+   .ui-provider {
+      background-color: transparent;
+   }
+}
