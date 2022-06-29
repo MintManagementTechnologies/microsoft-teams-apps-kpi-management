@@ -1,0 +1,9 @@
+[
+    {
+        "resource": "Microsoft Graph",
+        "delegated": [
+            "openid", "profile", "Presence.Read.All", "User.Read", "User.ReadBasic.All"
+        ],
+        "application": []
+    }
+]
